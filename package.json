@@ -1,0 +1,43 @@
+{
+  "name": "adventure-ally",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "pretty": "prettier --write \"./**/*.{js,jsx,json}\"",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.1.15",
+    "axios": "1.4.0",
+    "bcrypt": "5.0.1",
+    "bcryptjs": "2.4.3",
+    "config": "^3.3.9",
+    "cookie-parser": "1.4.4",
+    "cors": "^2.8.5",
+    "debug": "4.3.2",
+    "dotenv": "16.1.4",
+    "express": "4.18.2",
+    "express-validator": "7.0.1",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^11.1.1",
+    "helmet": "^7.0.0",
+    "http-errors": "1.6.3",
+    "joi": "17.9.2",
+    "jsonwebtoken": "9.0.0",
+    "lodash": "^4.17.21",
+    "moment-timezone": "^0.5.43",
+    "mongoose": "7.2.2",
+    "morgan": "1.9.1",
+    "path": "^0.12.7",
+    "randomatic": "^3.1.1",
+    "stellar-sdk": "10.4.1",
+    "validatorjs": "3.22.1",
+    "web3": "^4.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "1.14.9",
+    "prettier": "2.8.8",
+    "truffle": "^5.11.5"
+  }
+}

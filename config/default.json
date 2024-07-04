@@ -1,0 +1,14 @@
+{
+  "Database": {
+    "URL": "DB CONNECT URL",
+    "Debug": true,
+    "dbName": "test",
+    "SSL_CERT": "",
+    "Type": "Normal",
+    "dcDisableHooks": false
+  },
+  "App": {
+    "secret": "testSecret",
+    "tokenExpiresTime": "2000d"
+  }
+}
